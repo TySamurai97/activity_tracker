@@ -17,7 +17,7 @@ Steps to setup the project on your machine-
 >         python manage.py runserver
 All set !!
 
-# List of APIs and their functionalities (Note-  Except login and signup, each request requires an authentication token[TWEET {token_value}])
+# List of APIs and their functionalities
 API | Request Body | Method | Description | Response
 |---|---|---|---|---|
 | [/activity/users/] | param - "format=json" | GET | list all the users along with their active periods | json containing users along with their active periods
