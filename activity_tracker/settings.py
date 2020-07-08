@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'y8ca1ovcw@+iy&font_9kqbj6b_vec=&^5al(6(zyt*xm7zhj='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['activity-tracker-tanay.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
