@@ -4,5 +4,4 @@ from activity.views import UserView
 
 urlpatterns = [
     path('users/', UserView.as_view()),
-    path('dummy/', views.populate_dummy_data),
 ]
